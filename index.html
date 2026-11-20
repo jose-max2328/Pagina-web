@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera pagina</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table, th, td {border: 1px solid black;}
+    </style>
+</head>
+<body id="margen">
+    <script src="script.js"></script>
+    <h1 id="inicio"><strong>Camisas</strong></h1>
+    <img width="200px" id="logo" src="https://assets.turbologo.ru/blog/ru/2019/12/18163325/3-poloski-adidas-logo.png" alt="">
+    <!-- <div class="menucontainer">
+        <button id="botonmenu">
+            ...
+        </button>
+        <div id="menu" class="menu">
+            <button>Editar</button>
+            <button>Compartir</button>
+            <button>Configuracion</button>
+            <button>Eliminar</button>
+
+        </div>
+    </div> -->
+    <nav class="nav">
+        <div class="navcontenedor">
+            <figure class="navcontenedor">
+                <img width="200px" src="https://assets.turbologo.ru/blog/ru/2019/12/18163325/3-poloski-adidas-logo.png" alt=""
+                 class="navlogo">
+            </figure>
+            <label for="" class="navtoggle">
+                <input type="checkbox" id="menuinput"
+                class="navinput">
+            </label>
+        </div>
+    </nav>
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li><a href="#normal">Camisas polo</a></li>
+            <li><a href="#colegio">Camisas polo colegiales</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <article class="margen2">
+         <h2 id="normal" ><strong>Camisa polo</strong></h2>
+    <p>Camisa polo nueva hecha en Nicaragua</p>
+    <img src="imagenes/images.jfif" alt=""><br>
+    <a target="_blank" href="https://grupotercero.com/polo-klasico-cotton/"
+    >Si quieres mas info haz click aqui</a>
+    <h3>Tallas disponibles</h3>
+     <ol>
+        <li>S
+            <ol>
+                <li style="list-style-type: lower-alpha;">Blanco</li>
+                <li style="list-style-type: lower-alpha;">Azul</li>
+                <li style="list-style-type: lower-alpha;">Verde</li>
+            </ol>
+        </li>
+         <li>M
+            <ol>
+                <li style="list-style-type: lower-alpha;">Blanco</li>
+                <li style="list-style-type: lower-alpha;">Azul</li>
+                <li style="list-style-type: lower-alpha;">Verde</li>
+            </ol>
+         </li>
+          <li>L
+            <ol>
+                <li style="list-style-type: lower-alpha;">Blanco</li>
+                <li style="list-style-type: lower-alpha;">Azul</li>
+                <li style="list-style-type: lower-alpha;">Verde</li>
+            </ol>
+          </li>
+    </ol>
+    <table style="width: 200px;">
+        <tr>
+            <th>Talla</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>S</td>
+          <td>$15</td>
+        </tr>
+         <tr>
+            <td>M</td>
+          <td>$19</td>
+        </tr>
+         <tr>
+            <td>L</td>
+          <td>$25</td>
+        </tr>
+        
+    </table>
+    </article>
+   
+    <hr>
+    <article class="margen2">
+ <h2 id="colegio"><strong>camisa polo colegial</strong></h2>
+    <p>Camisa polo colegial hecha en Nicaragua</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS4oZwjxHd8O0AzIQoIwBCwU0hOdFw2OWD9k_EPso-ukArxCWnrzKEGzc&s=10" alt=""><br>
+     <h3>Tallas/colores disponibles</h3>
+     <ol>
+        <li>S
+             <ol>
+                <li style="list-style-type: lower-alpha;">Blanco</li>
+                <li style="list-style-type: lower-alpha;">Azul</li>
+                <li style="list-style-type: lower-alpha;">Verde</li>
+            </ol>
+        </li>
+        
+         <li>M
+            <ol>
+                <li style="list-style-type: lower-alpha;">Blanco</li>
+                <li style="list-style-type: lower-alpha;">Azul</li>
+                <li style="list-style-type: lower-alpha;">Verde</li>
+            </ol>
+         </li>
+          <li>L
+            <ol>
+                <li style="list-style-type: lower-alpha;">Blanco</li>
+                <li style="list-style-type: lower-alpha;">Azul</li>
+                <li style="list-style-type: lower-alpha;">Verde</li>
+            </ol>
+          </li>
+    </ol>
+     <table style="width: 200px;">
+        <tr>
+            <th>Talla</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>S</td>
+          <td>$15</td>
+        </tr>
+         <tr>
+            <td>M</td>
+          <td>$19</td>
+        </tr>
+         <tr>
+            <td>L</td>
+          <td>$25</td>
+        </tr>
+        
+    </table>
+    <hr>
+    <form>
+         <label for="nombre">Introduce tu nombre</label>
+         <input id="nombre" name="nombre" placeholder="Nombre"><br>
+         <label for="apellido">Introduce tu apellido</label>
+         <input id="apellido" name="apellido" placeholder="apellido"><br>
+         <label for="comentario">Ingrese comentario</label>
+         <textarea name="comentario" id="comentario" placeholder="Ingrese comentario"></textarea>
+         <br>
+         <label for="sub">
+            <img src="https://assets.turbologo.ru/blog/ru/2019/12/18163325/3-poloski-adidas-logo.png" width="200">
+         </label>
+         <input type="submit" id="sub">
+    </form>
+    </article>
+    
+   
+</body>
+<hr>
+<footer id="footer">
+<a href="#inicio" class="color">Voler al principio</a>
+<br>
+<a href="mailto: josejsm010905@gmail.com" class="color">Contacto</a>
+</footer>
+</html>

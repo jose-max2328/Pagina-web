@@ -1,0 +1,49 @@
+#inicio {
+    background-color: black;
+    color: white;
+    background-size: cover;
+    padding: 15px 15px 15px 15px;
+}
+#logo {
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.margen2{
+    margin: 100px 100px 100px 100px;
+background-color: azure;
+}
+
+/* .menu {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-left: 600px;
+}
+
+.menu button {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: white;
+    text-align: left;
+    margin-left: 600px;
+}
+
+.menu button:hover {
+    background: #f2f2f2;
+   margin-left: 600px;
+} */
+ .color{
+    text-decoration: none;
+    color: gray;
+ }
+ #footer{
+    background-color: black;
+    background-size: cover;
+    padding: 15px 15px 15px 15px;
+ }
