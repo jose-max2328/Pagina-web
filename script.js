@@ -16,3 +16,8 @@ const imagen = document.getElementById("logo");
 imagen.addEventListener("click", function() {
     location.reload();
 });
+
+function calculardescuento() {
+    let precio=Number(
+        document.getElementById("precio").value);
+}
